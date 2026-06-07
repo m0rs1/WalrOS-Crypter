@@ -1,0 +1,49 @@
+# Build outputs
+WalrOS_Builds/
+*.exe
+*.cs
+*.pem
+*.cer
+*.signed
+*.dll
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Payloads
+payload.exe
+*.bin
+*.raw
+
+# Temporary files
+temp_*
+*.tmp
+*.log
+*.cs
+*.pem
+*.cer
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Secrets
+*.key
+*.p12
+*.pfx
